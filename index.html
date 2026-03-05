@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio / Hoja de Vida - Julio Enrique Reyes Angarita</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    
+    <!-- NAV -->
+    <nav class="navbar">
+        <div class="logo">T5UN4M1</div>
+        <ul class="menu">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#sobre">Sobre Mí</a></li>
+            <li><a href="#sevicios">Servicios</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+        <a class="btn" href="#contacto">Contáctame</a>
+    </nav>
+
+    <!-- HERO / BANNER (imagen 1920x550 como background) -->
+    <header id="inicio" class="banner">
+        <div class="banner-texto">
+            <h1>Julio</h1>
+            <p>"Soy un solucionador de problemas digitales y físicos. Mi enfoque de 360° me permite no solo crear la identidad visual y la plataforma web de un negocio, sino también asegurar que la infraestructura tecnológica que sostiene esa operación sea eficiente y duradera."</p>
+            <div class="cta-group">
+                <a class="btn-primario" href="#proyectos">Ver Proyectos</a>
+                <a class="btn-secundario" href="#sobre">Sobre Mí</a>
+            </div>
+        </div>
+    </header>
+    <main>
+
+        <!-- SOBRE MÍ -->
+        <section id="sobre" class="container panel">
+            <h2>Perfil</h2>
+            <p>Estratega Digital y Técnico en Hardware, trayectoria liderando proyectos de branding y desarrollo web adaptativo bajo estándares de accesibilidad. Experto en potenciar la conversión en redes sociales mediante narrativas visuales y en garantizar la continuidad operativa de empresas a través del mantenimiento preventivo de equipos. He logrado optimizar la presencia online y el rendimiento tecnológico de mis clientes, incrementando su alcance digital.</p>
+        </section>
+
+        <!-- SERVICIOS -->
+        <section id="servicios" class="container panel">
+             <h2>Mis Servicios</h2>
+        <div class="tarjetas">
+            <article class="card">
+                <h3>Marketing Digital</h3>
+                <p>Estrategias visuales que potencian el alcance y la conversión en redes sociales.</p>
+            </article>
+            <article class="card">
+                <h3>Diseño Web</h3>
+                <p>Desarrollo sitios modernos y adaptativos con HTML, CSS y buenas prácticas de accesibilidad.</p>
+            </article>
+            <article class="card">
+                <h3>Limpieza de Hardware</h3>
+                <p>Mantenimiento a computadoras de mesa y equipos portátiles.</p>
+            </article>
+        </div>
+        </section>
+
+        <!-- HABILIDADES (TABLA) -->
+        <section class="container panel">
+            <h2>Habilidades y Herramientas</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Habilidad</th>
+                        <th>Nivel</th>
+                        <th>Experiencia</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML & CSS</td>
+                        <td>Intermedio</td>
+                        <td>1 año</td>
+                    </tr>
+                    <tr>
+                        <td>Photoshop / Illustrator</td>
+                        <td>Bajo (arrastrado)</td>
+                        <td>3 años</td>
+                    </tr>
+                    <tr>
+                        <td>UX/UI Design</td>
+                        <td>Intermedio</td>
+                        <td>1 años</td>
+                    </tr>
+                    <tr>
+                        <td>Mantenimiento</td>
+                        <td>Avanzado</td>
+                        <td>8 años</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- PROYECTOS (EJEMPLO CON IMÁGENES Y LISTA) -->
+        <section id="proyectos" class="container panel">
+        <h2>Proyectos</h2>
+        <div class="grid">
+            <article class="card">
+                <img src="img/proyecto1.png" alt="Miniatura del Proyecto 1">
+            <div class="card-content">
+            <h3>App Social</h3>
+                <ol>
+                    <li>Investigación con usuarios.</li>
+                    <li>Prototipo de alta fidelidad.</li>
+                    <li>Entrega a desarrollo.</li>
+                </ol>
+            </div>
+            </article>
+            <article class="card">
+                <img src="img/proyecto2.png" alt="Miniatura del Proyecto 2">
+                <div class="card-content">
+                    <h3>Ecommerce</h3>
+                    <ol>
+                        <li>Arquitectura de información.</li>
+                        <li>Checkout optimizado.</li>
+                        <li>Pruebas A/B.</li>
+                    </ol>
+                </div>
+            </article>
+            <article class="card">
+                <img src="img/proyecto3.png" alt="Miniatura del Proyecto 3">
+                <div class="card-content">
+                <h3>Branding</h3>
+                <ol>
+                    <li>Naming y tono de marca.</li>
+                    <li>Logo + sistema gráfico.</li>
+                    <li>Guía de uso.</li>
+                </ol>
+                </div>
+            </article>
+        </div>
+        </section>
+
+        <!-- CONTACTO + REDES -->
+        <section id="contacto" class="container panel">
+            <h2>Contáctame</h2>
+            <form class="contact-form">
+                <div class="field">
+                    <label for="nombre">Nombre</label>
+                    <input id="nombre" type="text" placeholder="Tu nombre completo" required />
+                </div>
+
+                <div class="field">
+                    <label for="email">Correo</label>
+                    <input id="email" type="email" placeholder="tunombre@correo.com" required />
+                </div>
+
+                <div class="field full">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" rows="4" placeholder="Escribe tu mensaje..." required></textarea>
+                </div>
+
+                <div class="actions">
+                    <button type="submit" class="btn-primario">Enviar</button>
+                </div>
+            </form>
+
+            <div class="redes">
+                <a class="social fb" href="#" aria-label="Facebook">Facebook</a>
+                <a class="social ig" href="#" aria-label="Instagram">Instagram</a>
+                <a class="social tk" href="#" aria-label="TikTok">TikTok</a>
+                <a class="social be" href="#" aria-label="Behance">Behance</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        © <span id="year"></span> Portafolio de Julio Reyes. Todos los derechos reservados.
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
