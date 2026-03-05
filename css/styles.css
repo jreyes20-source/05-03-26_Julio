@@ -54,7 +54,7 @@ h1,h2,h3{color:var(--color-principal);margin-top:0}
   min-height:550px;             /* Altura visible exacta */
   display:flex; align-items:center;
   background-color:#f2c1d0;     /* color de respaldo */
-  background-image:url("/img/julio.png");
+  background-image:url("../img/julio1.png");
   background-repeat:no-repeat;
   background-position:right center; /* personaje a la derecha */
   background-size:cover;             /* respeta proporciones 1980x550 */
@@ -180,3 +180,4 @@ input, textarea{
   .contact-form{ grid-template-columns:1fr }
 
 }
+
